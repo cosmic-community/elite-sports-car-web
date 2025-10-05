@@ -32,6 +32,12 @@ export default function Header() {
                 Inventory
               </Link>
               <Link 
+                href="/about" 
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                About
+              </Link>
+              <Link 
                 href="/team" 
                 className="text-gray-300 hover:text-white transition-colors"
               >
@@ -83,6 +89,13 @@ export default function Header() {
               onClick={closeMobileMenu}
             >
               Inventory
+            </Link>
+            <Link 
+              href="/about" 
+              className="text-gray-300 hover:text-white transition-colors text-lg"
+              onClick={closeMobileMenu}
+            >
+              About
             </Link>
             <Link 
               href="/team" 
