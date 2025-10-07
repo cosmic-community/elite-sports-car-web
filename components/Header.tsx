@@ -49,6 +49,12 @@ export default function Header() {
               >
                 News
               </Link>
+              <Link 
+                href="/contact" 
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                Contact
+              </Link>
             </nav>
             
             {/* Desktop CTA Button */}
@@ -82,35 +88,42 @@ export default function Header() {
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
         <div className="md:hidden fixed inset-0 bg-black z-40">
-          <nav className="container mx-auto px-4 py-8 pt-24 flex flex-col gap-6">
-            <Link 
-              href="/inventory" 
-              className="text-gray-300 hover:text-white transition-colors text-lg"
-              onClick={closeMobileMenu}
-            >
-              Inventory
-            </Link>
-            <Link 
-              href="/about" 
-              className="text-gray-300 hover:text-white transition-colors text-lg"
-              onClick={closeMobileMenu}
-            >
-              About
-            </Link>
-            <Link 
-              href="/team" 
-              className="text-gray-300 hover:text-white transition-colors text-lg"
-              onClick={closeMobileMenu}
-            >
-              Team
-            </Link>
-            <Link 
-              href="/news" 
-              className="text-gray-300 hover:text-white transition-colors text-lg"
-              onClick={closeMobileMenu}
-            >
-              News
-            </Link>
+            <nav className="container mx-auto px-4 py-8 pt-24 flex flex-col gap-6">
+              <Link 
+                href="/inventory" 
+                className="text-gray-300 hover:text-white transition-colors text-lg"
+                onClick={closeMobileMenu}
+              >
+                Inventory
+              </Link>
+              <Link 
+                href="/about" 
+                className="text-gray-300 hover:text-white transition-colors text-lg"
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+              <Link 
+                href="/team" 
+                className="text-gray-300 hover:text-white transition-colors text-lg"
+                onClick={closeMobileMenu}
+              >
+                Team
+              </Link>
+              <Link 
+                href="/news" 
+                className="text-gray-300 hover:text-white transition-colors text-lg"
+                onClick={closeMobileMenu}
+              >
+                News
+              </Link>
+              <Link 
+                href="/contact" 
+                className="text-gray-300 hover:text-white transition-colors text-lg"
+                onClick={closeMobileMenu}
+              >
+                Contact
+              </Link>
             <Link
               href="/inventory"
               className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg transition-colors text-center text-lg mt-4"
