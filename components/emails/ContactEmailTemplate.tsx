@@ -153,7 +153,7 @@ export default function ContactEmailTemplate({
               <a href="tel:5551234567">(555) 123-4567</a> • 
               <a href="mailto:info@elitesportscars.com">info@elitesportscars.com</a>
             </p>
-            <p style={{ marginTop: 16px }}>Mon-Sat 9AM-6PM</p>
+              <p style={{ marginTop: 16 }}>Mon-Sat 9AM-6PM</p>
           </div>
         </div>
       </body>
