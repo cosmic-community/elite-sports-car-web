@@ -11,8 +11,8 @@ module.exports = {
       },
       colors: {
         primary: {
-          DEFAULT: '#dc2626',
-          dark: '#991b1b',
+          DEFAULT: '#2563eb', // Changed: Blue color
+          dark: '#1e40af', // Changed: Darker blue for hover states
         },
       },
     },
